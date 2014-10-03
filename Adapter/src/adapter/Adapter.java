@@ -7,7 +7,7 @@ package adapter;
 
 /**
  *
- * @author ahmed_000
+ * @author ahani
  */
 public class Adapter {
     
