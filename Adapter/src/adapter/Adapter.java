@@ -49,7 +49,15 @@ public class Adapter {
             } else if(operation == '/') {
                 System.out.println("Scientific");
                 return this.scientificMode.divide(x, y);
-            } 
+            }
+            
+            if (operation == '+') {
+                System.out.println("Standard");
+                return x + y; //Standard inbuilt
+            } else if (operation == '-') {
+                System.out.println("Standard");
+                return x - y; // Standard inbuilt
+            }
             
             return 0.0;
         }
@@ -60,20 +68,8 @@ public class Adapter {
         
         @Override
         public double calculate(double x, double y, char operation) {
-            if (operation == '*' || operation == '/') {
-                this.calculatorAdapter = new CalculatorAdapter("Scientific");
-                return this.calculatorAdapter.calculate(x, y, operation);
-            } else {
-                if (operation == '+') {
-                    System.out.println("Standard");
-                    return x + y; //Standard
-                } else if (operation == '-') {
-                    System.out.println("Standard");
-                    return x - y; // Standard
-                }
-            }
-            
-            return 0.0;
+            this.calculatorAdapter = new CalculatorAdapter("Scientific");
+            return this.calculatorAdapter.calculate(x, y, operation);
         }
     }
     
