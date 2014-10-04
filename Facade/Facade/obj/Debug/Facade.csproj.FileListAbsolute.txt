@@ -1,0 +1,5 @@
+c:\users\ahmed_000\documents\visual studio 2012\Projects\Facade\Facade\bin\Debug\Facade.exe.config
+c:\users\ahmed_000\documents\visual studio 2012\Projects\Facade\Facade\bin\Debug\Facade.exe
+c:\users\ahmed_000\documents\visual studio 2012\Projects\Facade\Facade\bin\Debug\Facade.pdb
+c:\users\ahmed_000\documents\visual studio 2012\Projects\Facade\Facade\obj\Debug\Facade.exe
+c:\users\ahmed_000\documents\visual studio 2012\Projects\Facade\Facade\obj\Debug\Facade.pdb
